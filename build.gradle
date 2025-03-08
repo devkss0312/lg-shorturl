@@ -25,6 +25,11 @@ dependencies {
     runtimeOnly 'com.h2database:h2'
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    implementation 'org.springdoc:springdoc-openapi-ui:1.6.9'
+    // testImplementation "net.bytebuddy:byte-buddy:1.14.3"
+    implementation 'org.hibernate.validator:hibernate-validator:6.2.0.Final'
+    implementation 'javax.el:javax.el-api:3.0.0'
+    implementation 'org.glassfish:javax.el:3.0.0'
 }
 
 test {
